@@ -4,7 +4,19 @@ const fs = require("fs");
 const PORT = 8080;
 
 function handleResponse(request, response) {
-
+  // /bananas.html
+  const path = request.url;
+  switch (path) {
+    case "/":
+      // Send index.html
+    case "/bananas":
+      // Send bananas.htmlcase
+    case "/food":
+      // Send food.html
+    default:
+      // Send 404.html
+      //
+  }
 }
 
 const server = http.creatServer(handleResponse);
