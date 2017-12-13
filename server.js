@@ -9,10 +9,12 @@ function handleResponse(request, response) {
   switch (path) {
     case "/":
       // Send index.html
-    case "/bananas":
-      // Send bananas.htmlcase
-    case "/food":
+    case "/movies":
+      // Send movies.html
+    case "/foods":
       // Send food.html
+    case "/frameworks":
+      // Send frameworks.html
     default:
       // Send 404.html
       //

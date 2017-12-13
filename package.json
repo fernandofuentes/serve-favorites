@@ -1,0 +1,24 @@
+{
+  "name": "serve-favorites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandofuentes/serve-favorites.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandofuentes/serve-favorites/issues"
+  },
+  "homepage": "https://github.com/fernandofuentes/serve-favorites#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0"
+  }
+}
